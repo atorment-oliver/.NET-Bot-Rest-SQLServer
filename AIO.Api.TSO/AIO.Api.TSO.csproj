@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{250B0960-B0C1-4750-8A73-5CA4517EA6F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIO.Api.TSO</RootNamespace>
+    <AssemblyName>AIO.Api.TSO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\ServiceTSO\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Aerolinea.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.AerolineaProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Agencia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.AgenciaSucursal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.AgenciaSucursalLnIata.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.AgenciaSucursalLnIataProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Area.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.AreaProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.AreaProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.CierreContable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Cliente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteFee.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteFeeProvider_GetByIdAerolineaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteFeeProvider_GetByIdClienteIdAerolineaTipoTicketIdTipoCategoriaFeeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteFeeProvider_GetByIdClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteFeeProvider_GetMontoFeeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteHolding.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteProvider_GetByIdClienteHoldingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ClienteProvider_GetPaged_ExtendedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Cobrador.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.CodigoNetRemit.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Correlativo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Counter.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Estado.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.EstadoSync.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Gds.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Iata.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.IataSemana.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Proveedor.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ProveedorDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.ProveedorDetalleProvider_GetPaged_ExtendedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Rol.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.RutaAeropuerto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.RutaCiudad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.SincronizadorOrigen.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.SincronizadorOrigenLog.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.SincronizadorSap.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Ticket.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketFile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketFileProvider_GetByIdClienteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketFileProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketFileProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketFileProvider_GetPaged_ExtendedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketImpuesto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketImpuestoProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketImpuestoProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketOver.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketOverProvider_GetByIdAerolineaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketOverProvider_GetByIdCodigoNetRemitResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketOverProvider_GetByIdProveedorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketOverProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketOverProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketPago.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketPagoProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketPagoProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GenerarStockResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByFacturacionBspAfectaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByFacturacionBspInafectaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByFacturacionBspResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByFacturacionBspResumenResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByFechaEmisionIdTipoFacturacionIdDocumentoIdEstadoConjuncionTicketResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdAerolineaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdCentroCostoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdCierreContableResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdDocumentoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdGdsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdIataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdIataSemanaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdLiquidacionBspResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdLiquidacionLaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdLiquidacionServicioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdPasajeroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdProveedorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdTipoOrigenTicketResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdTipoTicketResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetByIdVendedorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetbyReporteBspResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketProvider_GetPaged_ExtendedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketRuta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketRutaProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketRutaProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketTarifa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketTarifaProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TicketTarifaProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoCambio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoCargo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoCategoriaFee.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoClaseDocumento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoCliente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoDestinoDocumento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoDocumento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoDocumentoIdentidad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoFacturacion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoFormaPago.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoOrigenTicket.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajero.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_FindResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetByDescripcionPasajeroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetByIdEstadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetByIdPasajeroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetByIdUsuarioCreacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetByTipoPasajeroResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoPasajeroProvider_GetPagedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoServicio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoTarifa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoTarjetaCredito.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.TipoTicket.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Usuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.UsuarioProvider_GetByIdUsuarioCreacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.UsuarioProvider_GetByIdUsuarioModificacionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\AIO.Api.TSO.ServiceTSO.Vendedor.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServiceTSO\WsTsof.wsdl" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServiceTSO\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceTSO\WsTsof.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceTSO\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceTSO\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceTSO\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

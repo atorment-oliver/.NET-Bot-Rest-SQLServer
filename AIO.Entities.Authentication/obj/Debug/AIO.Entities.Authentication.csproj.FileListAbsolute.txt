@@ -1,0 +1,6 @@
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Authentication\bin\Debug\AIO.Entities.Authentication.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Authentication\bin\Debug\AIO.Entities.Authentication.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Authentication\obj\Debug\AIO.Entities.Authentication.csproj.AssemblyReference.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Authentication\obj\Debug\AIO.Entities.Authentication.csproj.CoreCompileInputs.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Authentication\obj\Debug\AIO.Entities.Authentication.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Authentication\obj\Debug\AIO.Entities.Authentication.pdb

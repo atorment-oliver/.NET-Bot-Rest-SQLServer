@@ -1,0 +1,5 @@
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Log.Entity\bin\Debug\AIO.Log.Entity.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Log.Entity\bin\Debug\AIO.Log.Entity.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Log.Entity\obj\Debug\AIO.Log.Entity.csproj.CoreCompileInputs.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Log.Entity\obj\Debug\AIO.Log.Entity.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Log.Entity\obj\Debug\AIO.Log.Entity.pdb

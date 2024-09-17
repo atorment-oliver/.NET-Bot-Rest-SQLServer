@@ -1,0 +1,6 @@
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Bookings\bin\Debug\AIO.Entities.Bookings.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Bookings\bin\Debug\AIO.Entities.Bookings.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Bookings\obj\Debug\AIO.Entities.Bookings.csproj.AssemblyReference.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Bookings\obj\Debug\AIO.Entities.Bookings.csproj.CoreCompileInputs.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Bookings\obj\Debug\AIO.Entities.Bookings.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Entities.Bookings\obj\Debug\AIO.Entities.Bookings.pdb

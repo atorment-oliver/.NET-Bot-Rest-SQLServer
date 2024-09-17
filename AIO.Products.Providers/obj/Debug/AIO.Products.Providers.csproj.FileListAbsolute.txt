@@ -1,0 +1,36 @@
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Products.Providers.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Products.Providers.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.LOG.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.SAPTSO.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.TSO.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Entities.Bookings.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.LOG.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.LOG.dll.config
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.SAPTSO.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.SAPTSO.dll.config
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.TSO.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.TSO.dll.config
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Entities.Bookings.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.csproj.AssemblyReference.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.csproj.CoreCompileInputs.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.csproj.CopyComplete
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.pdb
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Products.Providers.dll
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Products.Providers.pdb
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.LOG.dll
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.SAPTSO.dll
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.TSO.dll
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Entities.Bookings.dll
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.LOG.pdb
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.LOG.dll.config
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.SAPTSO.pdb
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.SAPTSO.dll.config
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.TSO.pdb
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Api.TSO.dll.config
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\bin\Debug\AIO.Entities.Bookings.pdb
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.csproj.AssemblyReference.cache
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.csproj.CoreCompileInputs.cache
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.csproj.CopyComplete
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.dll
+D:\TropicalTours\AIO\Source\TT-AIO\AIO.Products.Providers\obj\Debug\AIO.Products.Providers.pdb

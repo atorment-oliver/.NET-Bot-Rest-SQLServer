@@ -1,0 +1,7 @@
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\bin\Debug\AIO.Api.SAPTSO.dll.config
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\bin\Debug\AIO.Api.SAPTSO.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\bin\Debug\AIO.Api.SAPTSO.pdb
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\obj\Debug\AIO.Api.SAPTSO.csproj.AssemblyReference.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\obj\Debug\AIO.Api.SAPTSO.csproj.CoreCompileInputs.cache
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\obj\Debug\AIO.Api.SAPTSO.dll
+C:\Archivos JPS\Proyectos TT\TT-TRAVELC\VER 2\SISTEMAS\TT-AIO\AIO.Api.SAPTSO\obj\Debug\AIO.Api.SAPTSO.pdb

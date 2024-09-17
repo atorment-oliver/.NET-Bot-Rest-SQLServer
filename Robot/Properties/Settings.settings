@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Robot.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="pag_tt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="point_tt" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">-1</Value>
+    </Setting>
+    <Setting Name="queryday_tt" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="auth_tt_user" Type="System.String" Scope="User">
+      <Value Profile="(Default)">apiuser</Value>
+    </Setting>
+    <Setting Name="auth_tt_pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123456</Value>
+    </Setting>
+    <Setting Name="auth_tt_operator" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tropicaltours</Value>
+    </Setting>
+    <Setting Name="auth_tt_microsite" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tropicaltours</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
